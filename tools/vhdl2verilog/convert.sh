@@ -6,7 +6,7 @@ set -e
 #sudo apt-get install ghdl
 #ghdl -v
 
-
+#SRC_FOLDER=../../HW/examples/GHRD
 ZTACHIP_RTL=../../HW/src
 mkdir -p build
 BUILD_OUTPUT_DIRECTORY=${BUILD_OUTPUT_DIRECTORY:-build}
@@ -23,6 +23,7 @@ ghdl -i --std=08 --work=work --workdir=build -Pbuild \
   "$ZTACHIP_RTL"/top/*.vhd \
   "$ZTACHIP_RTL"/util/*.vhd \
   "$ZTACHIP_RTL"/*.vhd 
+#  "$SRC_FOLDER"/main.vhd
 
 # Top entity
 ghdl -m --std=08 --work=work --workdir=build ztachip
