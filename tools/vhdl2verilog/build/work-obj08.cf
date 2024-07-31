@@ -1,0 +1,203 @@
+v 4
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/alu/alu.vhd" "21c701daa44310810263b5471e92199b3023c1ca" "20240731103747.933":
+  entity alu at 24( 917) + 0 on 77;
+  architecture behavior of alu at 48( 1764) + 0 on 78;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_core.vhd" "89668c81616b13fe3b472c4c3f2785a608f9ba06" "20240731103747.933":
+  entity dp_core at 22( 846) + 0 on 23;
+  architecture dp_core_behaviour of dp_core at 189( 10957) + 0 on 24;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_fetch.vhd" "6617afff4e044eb2a6b5baa62ef82453af9c3739" "20240731103747.933":
+  entity dp_fetch at 25( 1041) + 0 on 35;
+  architecture dp_fetch_behaviour of dp_fetch at 106( 4744) + 0 on 36;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_fifo.vhd" "479f8dfd032c07c5a9e01a5032983dad72bbad03" "20240731103747.933":
+  entity dp_fifo at 26( 1042) + 0 on 43;
+  architecture dp_fifo_behaviour of dp_fifo at 54( 2124) + 0 on 44;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_gen_core.vhd" "f03c007ccbbeaf1ddac1a17d00c11a14764bc4ec" "20240731103747.933":
+  entity dp_gen_core at 19( 787) + 0 on 37;
+  architecture dp_gen_core_behaviour of dp_gen_core at 154( 8724) + 0 on 38;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_gen.vhd" "1cb941001eb33e4b22305c86d1d206bc58abf76e" "20240731103747.933":
+  entity dp_gen at 26( 987) + 0 on 49;
+  architecture dp_gen_behaviour of dp_gen at 125( 6259) + 0 on 50;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_sink.vhd" "7a3934d5802cbe3d7998db1041b7f9b9bc5dacce" "20240731103747.933":
+  entity dp_sink at 26( 1011) + 0 on 41;
+  architecture dp_sink_behaviour of dp_sink at 101( 5224) + 0 on 42;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp_source.vhd" "e64d1789b5d4274dc634aa838e7e9b9858cbc08b" "20240731103747.933":
+  entity dp_source at 25( 987) + 0 on 39;
+  architecture dp_source_behaviour of dp_source at 134( 6866) + 0 on 40;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/dp/dp.vhd" "adc7fa5912a55c6e4c1ee387f1e23807fe5a5b20" "20240731103747.933":
+  entity dp at 26( 1133) + 0 on 33;
+  architecture dp_behaviour of dp at 198( 11431) + 0 on 34;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/ialu/ialu.vhd" "67aa5f59c8b8880145c95386c5d868bf6ac40d32" "20240731103747.933":
+  entity ialu at 23( 862) + 0 on 79;
+  architecture behavior of ialu at 44( 1415) + 0 on 80;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/ialu/iregister_file.vhd" "bccb16326fc92fc4843cc7e50c03c62731b0fdf7" "20240731103747.933":
+  entity iregister_file at 26( 1022) + 0 on 75;
+  architecture behaviour of iregister_file at 53( 2002) + 0 on 76;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/ialu/iregister_ram.vhd" "3e7fb67ddc34e82da0ef92e7d5744d7704888e09" "20240731103747.933":
+  entity iregister_ram at 25( 963) + 0 on 89;
+  architecture behavior of iregister_ram at 52( 1855) + 0 on 90;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/core.vhd" "ebd6ae71fcf3b94ac019ac4b8d16a73692a311fa" "20240731103747.933":
+  entity core at 23( 855) + 0 on 25;
+  architecture core_behavior of core at 87( 3880) + 0 on 26;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/instr_decoder2.vhd" "acf0da470635b7c2e87d39b434ae5716b803b15b" "20240731103747.933":
+  entity instr_decoder2 at 28( 1087) + 0 on 83;
+  architecture behavior of instr_decoder2 at 119( 5480) + 0 on 84;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/instr_dispatch2.vhd" "aaf928c6ec818946e887b0bb4f49caedcf38100d" "20240731103747.933":
+  entity instr_dispatch2 at 24( 930) + 0 on 85;
+  architecture behavior of instr_dispatch2 at 91( 4233) + 0 on 86;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/instr_fetch.vhd" "08aa363262468073b5f3d829f60c9c085ca0e448" "20240731103747.933":
+  entity instr_fetch at 26( 1096) + 0 on 67;
+  architecture behavior of instr_fetch at 87( 4466) + 0 on 68;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/instr.vhd" "3df14024925eb481dee9f5ce637af1f052cebfdf" "20240731103747.933":
+  entity instr at 25( 942) + 0 on 57;
+  architecture instr_behaviour of instr at 74( 3264) + 0 on 58;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/pcore.vhd" "85fe3980d22f8513d2bd0f249dc0bcd921960fd8" "20240731103747.933":
+  entity pcore at 7( 194) + 0 on 71;
+  architecture behavior of pcore at 85( 4072) + 0 on 72;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/register_bank.vhd" "2883303ec8bfba8f5b41635b5d92223ed0641d5e" "20240731103747.933":
+  entity register_bank at 51( 1766) + 0 on 81;
+  architecture behavior of register_bank at 115( 5638) + 0 on 82;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/register_file.vhd" "f70befd568f817efab6bac3441945560bf37b20b" "20240731103747.933":
+  entity register_file at 26( 979) + 0 on 95;
+  architecture behavior of register_file at 75( 3717) + 0 on 96;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/rom.vhd" "f7983242a5bba80906cd6b91fdbaa1c704775d84" "20240731103747.933":
+  entity rom at 23( 859) + 0 on 65;
+  architecture behavior of rom at 43( 1648) + 0 on 66;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/stream.vhd" "233428d80a95788b1061fcba5c0902e67d50b4f3" "20240731103747.933":
+  entity stream at 25( 929) + 0 on 55;
+  architecture stream_behavior of stream at 47( 1706) + 0 on 56;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/pcore/xregister_file.vhd" "d433b591d2f54c89ee769b68db3314a88ba3d2b3" "20240731103747.933":
+  entity xregister_file at 25( 995) + 0 on 73;
+  architecture behavior of xregister_file at 59( 2285) + 0 on 74;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/soc_base.vhd" "a97b09b9fda08ac16b723cd66c738ecd3f1559e4" "20240731103747.593":
+  entity soc_base at 26( 1097) + 0 on 4;
+  architecture rtl of soc_base at 112( 3805) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/tcm_read.vhd" "324a42b6559cb17b26b9ae531ecdb37db2956d6d" "20240731103747.593":
+  entity tcm_read at 25( 1030) + 0 on 4;
+  architecture rtl of tcm_read at 62( 2053) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/tcm.vhd" "86ffb4ad4e6fb8f80f9895ecf9b8eb4c2a530fe3" "20240731103747.593":
+  entity tcm at 23( 1028) + 0 on 4;
+  architecture rtl of tcm at 86( 3093) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/tcm_write.vhd" "bb385dcbdb9b134c70a100bf96ea9aacaaedafb5" "20240731103747.594":
+  entity tcm_write at 25( 1030) + 0 on 4;
+  architecture rtl of tcm_write at 68( 2271) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_apb_bridge.vhd" "7db55bd3d58b8af5b85c5bdbc6b921b54d14251d" "20240731103747.594":
+  entity axi_apb_bridge at 23( 987) + 0 on 4;
+  architecture rtl of axi_apb_bridge at 89( 3903) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_convert_64to32.vhd" "816ebd3110afcb62ee4992bb9753a3f1f8ac16c8" "20240731103747.594":
+  entity axi_convert_64to32 at 23( 1029) + 0 on 4;
+  architecture rtl of axi_convert_64to32 at 96( 3875) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_merge_read.vhd" "8bf98c39667e1d22af295c1b99c5fce5495cb5a9" "20240731103747.594":
+  entity axi_merge_read at 23( 1022) + 0 on 4;
+  architecture rtl of axi_merge_read at 105( 5260) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_merge.vhd" "f7a2c38156a55cd436bc988ea62bdf41b8855a83" "20240731103747.595":
+  entity axi_merge at 23( 960) + 0 on 4;
+  architecture rtl of axi_merge at 254( 11582) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_merge_write.vhd" "f93258f7c74fc7e9cc709aa8392696548ae36a0f" "20240731103747.596":
+  entity axi_merge_write at 23( 1033) + 0 on 4;
+  architecture rtl of axi_merge_write at 114( 5663) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_read.vhd" "dab0464d3c68e7d8675c8021f450f743e783cacf" "20240731103747.596":
+  entity axi_read at 23( 1028) + 0 on 4;
+  architecture rtl of axi_read at 85( 3395) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_split_read.vhd" "c57491979e9050296963558b5fad0fc3f07752f9" "20240731103747.596":
+  entity axi_split_read at 23( 960) + 0 on 4;
+  architecture rtl of axi_split_read at 83( 3869) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_split.vhd" "99020177dc48cd5e131ed82a59fb6578452b4575" "20240731103747.597":
+  entity axi_split at 24( 1047) + 0 on 4;
+  architecture rtl of axi_split at 247( 11387) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_split_write.vhd" "e4c0c91a0264e347bff3a9519c2520d01b02b332" "20240731103747.597":
+  entity axi_split_write at 24( 1060) + 0 on 4;
+  architecture rtl of axi_split_write at 89( 4422) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_stream_read.vhd" "acb5cbf6484ee8e2d6e0ef40e7d3521024246b4a" "20240731103747.597":
+  entity axi_stream_read at 23( 1006) + 0 on 4;
+  architecture rtl of axi_stream_read at 82( 3131) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_stream_write.vhd" "0a399effa4e4e521fb7b7a40839d2439eaa489de" "20240731103747.598":
+  entity axi_stream_write at 23( 1005) + 0 on 4;
+  architecture rtl of axi_stream_write at 88( 3352) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/axi/axi_write.vhd" "5f1056ceb56df04f782cd3473e16f2bb445452d9" "20240731103747.598":
+  entity axi_write at 23( 1029) + 0 on 4;
+  architecture rtl of axi_write at 90( 3950) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/peripherals/camera.vhd" "f6ad8c739c584a3dc9ef1460501f129493a1cf00" "20240731103747.598":
+  entity camera at 19( 800) + 0 on 4;
+  architecture behavioral of camera at 43( 1588) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/peripherals/gpio.vhd" "29d54801c90b4a2473483fb481ed02ce563b9353" "20240731103747.598":
+  entity gpio at 19( 782) + 0 on 4;
+  architecture behavioral of gpio at 43( 1629) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/peripherals/time.vhd" "6b16d5dbbfd4b2dce959a05fccad0001d44ad90b" "20240731103747.598":
+  entity timer at 19( 782) + 0 on 4;
+  architecture behavioral of timer at 40( 1472) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/peripherals/uart.vhd" "020005712214dcacf840faee4e36aaf03df55f35" "20240731103747.599":
+  entity uart at 19( 782) + 0 on 4;
+  architecture behavioral of uart at 45( 1620) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/soc/peripherals/vga.vhd" "c3eda8e34ef14abe6bfa32c0d25b2fd2c65f1527" "20240731103747.599":
+  entity vga at 19( 782) + 0 on 4;
+  architecture behavioral of vga at 39( 1422) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/axilite.vhd" "2092eb5e459c0a6ea12ca1792866767d0211c85c" "20240731103747.933":
+  entity axilite at 20( 788) + 0 on 15;
+  architecture behaviour of axilite at 64( 2823) + 0 on 16;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/cell.vhd" "e70185768d45211c9f0af78b90bdf0163db0ed17" "20240731103747.933":
+  entity cell at 23( 830) + 0 on 59;
+  architecture cell_behaviour of cell at 100( 5070) + 0 on 60;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/ddr_rx.vhd" "4cae64320af183e57eb6614aeb899c0263d5fe15" "20240731103747.933":
+  entity ddr_rx at 24( 847) + 0 on 19;
+  architecture ddr_rx_behavior of ddr_rx at 76( 3478) + 0 on 20;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/ddr_tx.vhd" "f1cd86ec0b523e9a948bbe19c162fc83d5009e77" "20240731103747.933":
+  entity ddr_tx at 24( 885) + 0 on 21;
+  architecture ddr_tx_behavior of ddr_tx at 74( 3352) + 0 on 22;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/sram_core.vhd" "fa4a0fa48de22c8673e78062e05d78dfe2ef9eaf" "20240731103747.933":
+  entity sram_core at 23( 830) + 0 on 17;
+  architecture behavior of sram_core at 54( 2079) + 0 on 18;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/sram.vhd" "edf9024e65e137152851fa2b7fed3a3551028945" "20240731103747.933":
+  entity sram at 23( 830) + 0 on 29;
+  architecture behavior of sram at 53( 1846) + 0 on 30;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/top/ztachip.vhd" "03cc39654d63ea0fd9336f6365261f86c63cc8c9" "20240731103747.933":
+  entity ztachip at 24( 848) + 0 on 13;
+  architecture ztachip_behavior of ztachip at 96( 5000) + 0 on 14;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/adder.vhd" "c1107682c65e5c7975148625f67644a4ef730e4a" "20240731103747.933":
+  entity adder at 18( 803) + 0 on 63;
+  architecture rtl of adder at 36( 1217) + 0 on 64;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/afifo2.vhd" "29921c217d9c93a953541966e9e518c05ac32c60" "20240731103747.602":
+  entity afifo2 at 25( 1101) + 0 on 4;
+  architecture rtl of afifo2 at 52( 1788) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/afifo.vhd" "8c8775dc0ec87efd8964d2ae46dd8e669b66d1b1" "20240731103747.602":
+  entity afifo at 25( 1101) + 0 on 4;
+  architecture rtl of afifo at 52( 1786) + 0 on 4;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/arbiter.vhd" "3b7740a67b23ab30542956e03a2e9b05d33e9355" "20240731103747.933":
+  entity arbiter at 23( 846) + 0 on 69;
+  architecture arbiter_behaviour of arbiter at 44( 1438) + 0 on 70;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/delayi.vhd" "2eac9c6da607c01efd5cb8d7446fa53ab63aafbb" "20240731103747.933":
+  entity delayi at 23( 845) + 0 on 51;
+  architecture delayi_behaviour of delayi at 44( 1348) + 0 on 52;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/delay.vhd" "1477b526ee617933064e5ec02257631a369bf12f" "20240731103747.933":
+  entity delay at 23( 841) + 0 on 31;
+  architecture delay_behaviour of delay at 44( 1303) + 0 on 32;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/delayv.vhd" "302957b9278f6fb340dddcb67607759cd45a050a" "20240731103747.933":
+  entity delayv at 23( 847) + 0 on 53;
+  architecture delay_behaviour of delayv at 44( 1366) + 0 on 54;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/fifo.vhd" "45f96ab334b198585f63e53ae39bfb4cbf459b34" "20240731103747.933":
+  entity scfifo at 19( 787) + 0 on 27;
+  architecture rtl of scfifo at 50( 1672) + 0 on 28;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/fifow.vhd" "651c9dd4f3e0f9f3cc4d731d4067dc9fdaf2d494" "20240731103747.933":
+  entity scfifow at 24( 1041) + 0 on 47;
+  architecture rtl of scfifow at 51( 1749) + 0 on 48;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/multiplier.vhd" "425c8bb55b15bfc12477f6388f253f1058da425d" "20240731103747.933":
+  entity multiplier at 19( 787) + 0 on 61;
+  architecture rtl of multiplier at 42( 1330) + 0 on 62;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/ram2r1w.vhd" "b21fdceb441af591ae8b42271025cf3291e8c0f0" "20240731103747.933":
+  entity ram2r1w at 40( 1768) + 0 on 97;
+  architecture ram2r1w_behaviour of ram2r1w at 70( 2829) + 0 on 98;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/ramw2.vhd" "28a6d360044b4a86a3e348c6f20582eb72b1b29b" "20240731103747.933":
+  entity ramw2 at 26( 1097) + 0 on 45;
+  architecture ramw2_behaviour of ramw2 at 53( 1981) + 0 on 46;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/ramw.vhd" "7312676c0d53593ae0a8f178e31adbc257559fdd" "20240731103747.933":
+  entity ramw at 26( 1096) + 0 on 87;
+  architecture ramw_behaviour of ramw at 54( 2043) + 0 on 88;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/shifter_l.vhd" "18dc60fef3afee78df1e73e513ab01207a5a2570" "20240731103747.933":
+  entity barrel_shifter_l at 19( 787) + 0 on 93;
+  architecture rtl of barrel_shifter_l at 40( 1265) + 0 on 94;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/util/shifter.vhd" "7487c3b46ec1fba10537baa73008889cb7087132" "20240731103747.933":
+  entity barrel_shifter_a at 19( 787) + 0 on 91;
+  architecture rtl of barrel_shifter_a at 40( 1265) + 0 on 92;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/config.vhd" "df84ba1fe3f5e0090e0bdc12c6772f1fc0735d48" "20240731103747.933":
+  package config at 5( 164) + 0 on 11;
+file "/home/fedy0/Documents/ztachip/tools/vhdl2verilog/" "../../HW/src/ztachip_pkg.vhd" "777e450ca346c3852f8e9f027f1c87b742632f90" "20240731103747.933":
+  package ztachip_pkg at 24( 920) + 0 on 12;
